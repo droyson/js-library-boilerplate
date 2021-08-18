@@ -812,6 +812,11 @@ ts-loader@^9.2.5:
     micromatch "^4.0.0"
     semver "^7.3.4"
 
+types-webpack-bundler@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/types-webpack-bundler/-/types-webpack-bundler-1.0.0.tgz#6946158dc36a9024e986f629259f781a7327578d"
+  integrity sha512-80Sq0LYqTyhExU4IMwv8TVxLmXzMs40Y+AyNEFG9qgkSb6E3hj5OExSNmRZZcHDsQfb9Paoq8n3+OfpRdrdTTQ==
+
 typescript@^4.3.5:
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.3.5.tgz#4d1c37cc16e893973c45a06886b7113234f119f4"
