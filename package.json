@@ -4,14 +4,21 @@
   "description": "Boilerplate code for setting up a JS library",
   "main": "./dist/index.js",
   "types": "./dist/types/index.d.ts",
-  "repository": "git@github.com:droyson/js-library-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/droyson/js-library-boilerplate"
+  },
   "author": "Royson <roysondsilva@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack --config webpack.config.js --mode production"
+    "build": "webpack --config webpack.config.js --mode production",
+    "test": "jest --no-cache"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
     "ts-loader": "^9.2.5",
     "types-webpack-bundler": "^1.0.0",
     "typescript": "^4.3.5",
