@@ -13,7 +13,7 @@
   "private": false,
   "scripts": {
     "build": "webpack --config webpack.config.js --mode production",
-    "test": "jest --no-cache"
+    "test": "jest"
   },
   "devDependencies": {
     "@types/jest": "^27.0.1",
