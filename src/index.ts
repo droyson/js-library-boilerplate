@@ -1,3 +1,3 @@
-import { A } from "./mainA";
+import { A } from './mainA'
 
 console.log('index called with A value', A)

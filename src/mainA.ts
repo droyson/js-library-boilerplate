@@ -1,5 +1,5 @@
 
-const A:string = 'mainA'
+const A = 'mainA'
 
 console.log('file mainA called')
 
